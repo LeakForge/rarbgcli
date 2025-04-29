@@ -14,7 +14,7 @@ version = subprocess.Popen('git describe --abbrev=0 --tags', shell=True, stdout=
 setuptools.setup(
     name='rarbgcli',
     version=version,
-    description='Command line interface for rarbg.to',
+    description='Command line interface for therarbg.com',
     long_description=long_description,
     url='https://github.com/LeakForge/rarbgcli',
     author='LeakForge',
