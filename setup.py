@@ -5,7 +5,7 @@ import subprocess
 import setuptools
 
 with open('README.md', 'r') as fh:
-    long_description = fh.read().replace('](', '](https://raw.githubusercontent.com/FarisHijazi/rarbgcli/master/')
+    long_description = fh.read().replace('](', '](https://raw.githubusercontent.com/LeakForge/rarbgcli/main/')
 with open('requirements.txt', 'r') as fh:
     rqeuirements = fh.readlines()
 
@@ -16,9 +16,9 @@ setuptools.setup(
     version=version,
     description='Command line interface for rarbg.to',
     long_description=long_description,
-    url='https://github.com/FarisHijazi/rarbgcli',
-    author='Faris Hijazi',
-    author_email='theefaris@gmail.com',
+    url='https://github.com/LeakForge/rarbgcli',
+    author='LeakForge',
+    author_email='rqjoapfpgc@use.startmail.com',
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
