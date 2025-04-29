@@ -1,12 +1,10 @@
 """
-rarbg, rarbccli - RARBG command line interface for scraping the rarbg.to torrent search engine
+rarbg, rarbccli - RARBG command line interface for scraping the therarbg.com torrent search engine
                   Outputs a torrent information as JSON from a rarbg search.
 
 Example usage:
 
     $ rarbgcli "the stranger things 3" --category movies --limit 10 --magnet | xargs qbittorrent
-
-https://github.com/FarisHijazi/rarbgcli
 
 """
 # TODO: turn this lib into an API lib (keep the CLI as a bonus)
@@ -44,16 +42,8 @@ os.makedirs(PROGRAM_HOME, exist_ok=True)
 COOKIES_PATH = os.path.join(PROGRAM_HOME, 'cookies.json')
 
 TORRENTGALAXY_DOMAINS = [
-    'https://rargb.to',
-    'https://www.rarbggo.to',
-    'https://www.rarbgproxy.to',
-    'https://www.rarbgo.to',
-    'https://www.proxyrarbg.to',
-    'https://rarbg.tw',
-    'https://rarbgprx.org',
-    'https://rarbgunblock.com',
-    'https://rarbgmirror.com',
-    'https://rarbgunblock.com',
+    'https://therarbg.com',
+    'https://therarbg.to'
 ]
 TORRENTGALAXY_CATEGORY2CODE = {
     'movies': 'movies',
