@@ -1,0 +1,23 @@
+version: 2.0
+package-manager: pip
+requirements:
+  - file: setup.py
+  - file: requirements.txt
+  - name: selenium
+    version: ">=4.6.3"
+  - name: pytesseract
+    version: ">=0.3.10"
+  - name: requests
+    version: ">=2.26.0"
+  - name: json
+    version: ">=1.0.0"
+  - name: argparse
+    version: ">=1.0.0"
+  - name: jq
+    version: ">=1.0.0"
+  - name: xargs
+    version: ">=1.0.0"
+  - name: pytest
+    version: ">=7.0.0"
+  - name: pytest-cov
+    version: ">=3.0.0"
